@@ -1,0 +1,104 @@
+
+
+h1 {
+
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+div input {
+  border: .1rem solid #ccc;
+  border-radius: .3rem;
+  width: 45rem;
+  margin: 4rem 0;
+  padding: .6rem 1rem;
+  font-size: 1.6rem;
+  letter-spacing: .06rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+div button {
+  padding: 1.2rem 2.8rem;
+  border: none;
+  border-radius: .3rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 2.4rem;
+  background-color: #676968;
+  color: #fff;
+}
+
+div button:hover{
+  background-color: #fff;
+  color: #242424;
+  border: 1px solid black;
+}
+
+.main-task li{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  
+  min-height: 6rem;
+  border-bottom: .1rem solid #ccc;
+  text-transform: capitalize;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 3rem;
+}
+
+main h2{
+  font-size: 3rem;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-bottom: 4.8rem;
+}
+
+main h2 .icons{
+  color: #68B984;
+}
+
+.main-task li{
+  font-size: 30px;
+  font-weight: 800;
+
+}
+
+.main-task li:first-child{
+  border-top: .1rem solid #ccc;
+
+}
+
+.main-task li:hover{
+  background-color: #fef2f2;
+  color: #242424;
+  
+
+}
+
+.main-task li input[type="checkbox"]:checked  + label {
+  text-decoration: line-through;
+  color: #D14D72;
+}
+
+.main-task li button{
+  padding: .6rem 1rem;
+  width: 7rem;
+  background-color: #D14D72;
+  color: #302b2b;
+  border:none;
+  display: inline-block;
+  cursor: pointer;
+  justify-self: center;
+  letter-spacing: .1rem;
+}
+
+
+
+
+
